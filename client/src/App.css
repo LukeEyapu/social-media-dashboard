@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.nav-bar{
+  height: 5rem;
+  background: blue;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.nav-text{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-buttons{
+  padding: .8rem 3rem;
+  color: blue;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 1rem;
+  font-weight: bold;
+  outline: hidden;
+}
+.nav-buttons-home{
+  padding: .8rem 3rem;
+  color: white;
+  background: blue;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 1rem;
+  font-weight: bold;
+  outline: hidden;
+}
+.home-content{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 100%;
+}
+.home-content h1{
+  font-size: 3rem;
+  margin-bottom: 1.3rem;
+}
+.home-content h3{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.form-elements{
+  display: flex;
+  justify-content: center;flex-direction: column;align-items: center;;
+  text-align: center;
+  margin-top: 7rem ;
+}
+.form-elements h2{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.form-elements label {
+  font-weight: bold;
+  font-size: 18px;
+}
+.form-elements input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
